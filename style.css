@@ -49,17 +49,17 @@ html,body{
     width:80%;
     margin-left: 10%;
     height: calc(100% - 10vh - 25%);
-    line-height: 12vh;
+    line-height: 2vh;
     /* background-color: skyblue; */
 }
 #texter h1{
     z-index: -1;
     /* z-index: -1; */
-    font-size: 20vh;
-    font-family: "Julee", cursive;
+    font-size: 10vh;
+    font-family: "Satisfy", cursive;
 }
 #texter h1:nth-child(1){
-    margin-top: 30%;
+    margin-top: 35%;
     text-align: center;
 }
 #texter h1:nth-child(2){
@@ -67,6 +67,7 @@ html,body{
     text-align: center;
 }
 img{
+    border-radius: 3vh;
     position: absolute;
     margin-top: 3%;
     margin-left: 43%;
