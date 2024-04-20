@@ -1,0 +1,143 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: cursive;
+    color: #dadada;
+    font-family: "Handlee", cursive;
+}
+
+#main{
+    width:100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #0E100F;
+}
+#nav{
+    width: 100%;
+    height: 10vh;
+    /* background-color: skyblue; */
+    display: flex;
+    justify-content: space-between;
+}
+#nav1{
+    padding: 1.5vh 4vh;
+    font-family: "Satisfy", cursive;
+    font-size:4.5vh;
+}
+#nav1 h3{
+    /* text-transform: uppercase; */
+    color: rgb(0, 255, 255);
+}
+
+#nav2{
+    display: flex;
+    gap:50px;
+    padding: 2.5vh 4vh;
+}
+#nav2 h3{
+    font-size: 2vh;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+#texter{
+
+    width:80%;
+    margin-left: 10%;
+    height: calc(100% - 10vh - 25%);
+    line-height: 12vh;
+    /* background-color: skyblue; */
+}
+#texter h1{
+    z-index: -1;
+    /* z-index: -1; */
+    font-size: 20vh;
+    font-family: "Julee", cursive;
+}
+#texter h1:nth-child(1){
+    margin-top: 30%;
+    text-align: center;
+}
+#texter h1:nth-child(2){
+    margin-top: 5%;
+    text-align: center;
+}
+img{
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 43%;
+    object-fit: cover;
+    object-position: center;
+    width: 30vh;
+    height: 40vh;
+}
+
+h1{
+    animation-name: color;
+    animation-duration: 10s;
+    animation-delay: 3.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    transition: linear all ease 1s;
+}
+@keyframes color {
+    0%{
+    color: #FFAF45;
+        opacity:90%;
+    }
+    10%{
+    color: #FB6D48;
+        opacity:90%;
+    }
+    20%{
+    color: #D74B76;
+        opacity:90%;
+
+    }
+    30%{
+    color: #db6fe0;
+        opacity:90%;
+
+
+    }    
+    40%{
+    color: #97E7E1;
+        opacity:90%;
+
+
+    }
+    50%{
+    color: #6AD4DD;
+        opacity:90%;
+
+
+    }
+    60%{
+    color: #7AA2E3;
+        opacity:90%;
+
+    }
+    70%{
+    color: #01ff4d;
+        opacity:90%;
+    } 
+    80%{
+    color: #BE7B72;
+        opacity:90%;
+
+
+    }
+    90%{
+        color: #FDAF7B;
+        opacity:90%;
+
+    }
+    100%{
+    color: #5356FF;
+        opacity:90%;
+    }    
+}
